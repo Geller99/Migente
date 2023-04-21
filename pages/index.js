@@ -28,7 +28,7 @@ export default function Home() {
         {/* Section starts */}
         <HeroSection />
         <ProjectSection />
-        <TeamSection />
+        {/* <TeamSection /> */}
         <NftSection />
         <MintSection />
         <FaqSection />

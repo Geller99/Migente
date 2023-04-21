@@ -7,16 +7,18 @@ const variants = [
 ]
 function Button({
     value = "",
-    variant = variants[0]
+    variant = variants[0],
+    href,
 }) {
     return (
-        <div className={`custom-button ${variant}`}>
+        <a className={`custom-button ${variant}`} href={href} target="_blank" rel="noreferrer">
+          
             <div className={`main-button ${variant}`}>
                 <div className='title'>{value}</div>
             </div>
-
+        
             <div className='outline-distorted'></div>
-        </div>
+        </a>
     )
 }
 

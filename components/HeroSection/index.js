@@ -21,14 +21,15 @@ function HeroSection() {
             appreciation for the Hispanic and Latin American culture and its
             abundant legacy, but also by a strong aspiration to equip the
             upcoming cohort of change-makers with the necessary resources and
-            expertise to establish a legacy of wealth across generations. While
-            emphasizing the Latino culture, Mi Gente embodies the tenacity and
-            determination of all individuals.
+            expertise to establish a legacy of wealth across generations. 
+
+            <br/>
+            <p>Pre-sale Date 5th May 2023</p>
           </div>
         </div>
         <div className="action-btns">
-          <Button variant="fill" value="Mint" />
-          <Button variant="outline" value="Join us" />
+          <Button variant="fill" value="Mint" href={'/#mint'} />
+          <Button variant="outline" value="Join us" href={"https://discord.com/invite/7jNCcNpzPn"} />
         </div>
         <ScrollToSeeMore scrollRef="project" />
       </div>

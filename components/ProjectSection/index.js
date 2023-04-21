@@ -5,7 +5,7 @@ function ProjectSection() {
 
   return (
     <div className="project-section" id="project">
-      <div class="spot-light"></div>
+      <div className="spot-light"></div>
 
       <div className="project-section-inner">
 

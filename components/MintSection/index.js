@@ -1,26 +1,36 @@
-import React from 'react'
-import Button from '../Button'
-import InputNumber from './Components/InputNumber'
+import React from "react";
+import Button from "../Button";
+import InputNumber from "./Components/InputNumber";
+import { useCountdown } from "@/hooks/useCount";
 
 function MintSection() {
+  const targetDate = new Date("May 5, 2023 00:00:00");
+  const [days, hours, minutes, seconds] = useCountdown(targetDate);
   return (
     <div className="mint-section" id="mint">
       <div className="mint-section-inner">
         <div className="left-text-container">
           <div className="content">
             <div className="title">
+              {console.log("Log Target Date", days, hours, minutes, seconds)}
               Join the culture
             </div>
             <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
-                Lorem ipsum dolor sit amet consectetur. Feugiat praesent tristique tellus diam nisi tortor ipsum sodales. Semper integer nisl facilisis velit mauris. Sollicitudin ut ut dolor id eget. Habitant imperdiet eget mi.
+                Lorem ipsum dolor sit amet consectetur. Feugiat praesent
+                tristique tellus diam nisi tortor ipsum sodales. Semper integer
+                nisl facilisis velit mauris. Sollicitudin ut ut dolor id eget.
+                Habitant imperdiet eget mi.
               </div>
             </div>
           </div>
           <div className="countdown-wrapper">
             <img src="/svg/clock.svg" alt="" />
-            <span className="countdown-nums">  10 hrs : 8 mins : 56 secs</span>
+            <span className="countdown-nums">
+              {" "}
+              {`${days} days : ${hours} hours : ${minutes} minutes : ${seconds} seconds`}{" "}
+            </span>
           </div>
 
           <div className="mint-buttons-wrapper">
@@ -31,12 +41,11 @@ function MintSection() {
             </div>
 
             <div className="mint-now-btn">
-              <Button variant="bw" value='connect wallet' />
+              <Button variant="bw" value="connect wallet" />
             </div>
           </div>
         </div>
         <div className="right-image-container">
-
           <div className="image-grid">
             <div className="row-1">
               <div className="top-horizontal-bar"></div>
@@ -61,8 +70,8 @@ function MintSection() {
           </div>
         </div>
       </div>
-    </div >
-  )
+    </div>
+  );
 }
 
-export default MintSection
+export default MintSection;

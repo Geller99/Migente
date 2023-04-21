@@ -1,8 +1,11 @@
 import React from "react";
 import Button from "../Button";
 import ScrollToSeeMore from "../ScrollToSeeMore";
+import { useCountdown } from "@/hooks/useCount";
 
 function HeroSection() {
+  const targetDate = new Date("May 5, 2023 00:00:00");
+  const [days, hours, minutes, seconds] = useCountdown(targetDate);
   return (
     <section className="hero-section" id="hero">
       <div className="background">
@@ -17,19 +20,18 @@ function HeroSection() {
         <div className="sub-heading">
           <div className="vertical-bar"></div>
           <div className="content">
-            The Genesis of the Mi Gente Project was not only fueled by a deep
-            appreciation for the Hispanic and Latin American culture and its
-            abundant legacy, but also by a strong aspiration to equip the
-            upcoming cohort of change-makers with the necessary resources and
-            expertise to establish a legacy of wealth across generations. 
-
-            <br/>
-            <p>Pre-sale Date 5th May 2023</p>
+            The Genesis 
+            <br />
+            <p>Presale {`${days} days : ${hours} hours : ${minutes} minutes : ${seconds} seconds`}</p>
           </div>
         </div>
         <div className="action-btns">
-          <Button variant="fill" value="Mint" href={'/#mint'} />
-          <Button variant="outline" value="Join us" href={"https://discord.com/invite/7jNCcNpzPn"} />
+          <Button variant="fill" value="Mint" href={"/#mint"} />
+          <Button
+            variant="outline"
+            value="Join us"
+            href={"https://discord.com/invite/7jNCcNpzPn"}
+          />
         </div>
         <ScrollToSeeMore scrollRef="project" />
       </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function NftSection() {
   return (
@@ -24,11 +24,14 @@ function NftSection() {
             <div className="img-wrapper">
               <img src="/image/Team_image/team-avatar.png" alt="" />
             </div>
-
           </div>
           <div className="second-item">
             <div className="heading-wrapper">
-              <div className="title">The <span>NFTS</span></div>
+              <div className="title">
+                The <span>NFTS</span>
+          
+              </div>
+
               <div className="vertical-bar"></div>
               <div className="horizontal-bar"></div>
             </div>
@@ -36,8 +39,15 @@ function NftSection() {
             <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
-                The Somos Collection
-
+                We are embracing traditional Mexican art as it is known for its
+                vibrant colors, intricate designs, and strong cultural
+                symbolism. This art style has been characterized by a unique
+                fusion of indigenous and European influences, resulting in a
+                rich and diverse cultural heritage. The use of bold colors and
+                intricate patterns is a common theme throughout the Mi Gente NFT
+                project reflecting the country's vibrant culture and history. It
+                is a powerful reminder of the importance of cultural diversity
+                and artistic expression.
               </div>
             </div>
           </div>
@@ -45,7 +55,7 @@ function NftSection() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default NftSection
+export default NftSection;

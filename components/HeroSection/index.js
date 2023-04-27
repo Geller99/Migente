@@ -4,7 +4,9 @@ import ScrollToSeeMore from "../ScrollToSeeMore";
 import { useCountdown } from "@/hooks/useCount";
 
 function HeroSection() {
+  
   const targetDate = new Date("May 5, 2023 00:00:00");
+
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
   return (
     <section className="hero-section" id="hero">

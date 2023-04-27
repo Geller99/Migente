@@ -1,19 +1,17 @@
-import React, { useState } from 'react'
-import ScrollToSeeMore from '../ScrollToSeeMore'
+import React, { useState } from "react";
+import ScrollToSeeMore from "../ScrollToSeeMore";
 
 function ProjectSection() {
-
   return (
     <div className="project-section" id="project">
       <div className="spot-light"></div>
 
       <div className="project-section-inner">
-
         <div className="project-inner-container">
           <div className="left-text-div">
             <div className="heading-wrapper">
               <div className="title">
-                THE <span>Project</span>
+                 <span>Project</span>
                 {/* <div className="vertical-line"></div>
                 <div className="horizontal-line"></div> */}
               </div>
@@ -21,28 +19,29 @@ function ProjectSection() {
             <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
-                Lorem ipsum dolor sit amet consectetur. Feugiat praesent tristique tellus diam nisi tortor ipsum sodales. Semper integer nisl facilisis velit mauris. Sollicitudin ut ut dolor id eget. Habitant imperdiet eget mi.
-
+                The genesis of the Mi Gente Project was not only fueled by a
+                deep appreciation for the Hispanic and Latin American culture
+                and its abundant legacy,
               </div>
             </div>
             <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
-                Lorem ipsum dolor sit amet consectetur. Feugiat praesent tristique tellus diam nisi tortor ipsum sodales. Semper integer nisl facilisis velit mauris. Sollicitudin ut ut dolor id eget. Habitant imperdiet eget mi.
-
+                but also by a strong aspiration to equip the upcoming cohort of
+                change-makers with the necessary resources and expertise to
+                establish a legacy of wealth across generations.
               </div>
             </div>
             <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
-                Lorem ipsum dolor sit amet consectetur. Feugiat praesent tristique tellus diam nisi tortor ipsum sodales. Semper integer nisl facilisis velit mauris. Sollicitudin ut ut dolor id eget. Habitant imperdiet eget mi.
-
+                While emphasizing the Latino culture, Mi Gente embodies the
+                tenacity and determination of all individuals.
               </div>
             </div>
 
             <div className="scroll-to-see-more">
               <ScrollToSeeMore scrollRef="team" />
-
             </div>
           </div>
           <div className="right-image-div">
@@ -56,12 +55,11 @@ function ProjectSection() {
               <div className="spotlight" style={{ left: spotlightPosition.x, top: spotlightPosition.y }} />
             </div> */}
             {/* <img src="http://upload.wikimedia.org/wikipedia/commons/5/51/Fox_Head.jpg" alt="" /> */}
-
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default ProjectSection
+export default ProjectSection;

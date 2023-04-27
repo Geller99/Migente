@@ -11,17 +11,14 @@ function MintSection() {
       <div className="mint-section-inner">
         <div className="left-text-container">
           <div className="content">
-            <div className="title">
-              {console.log("Log Target Date", days, hours, minutes, seconds)}
-              Join the culture
-            </div>
+            <div className="title">Join the culture</div>
             <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
-                Lorem ipsum dolor sit amet consectetur. Feugiat praesent
-                tristique tellus diam nisi tortor ipsum sodales. Semper integer
-                nisl facilisis velit mauris. Sollicitudin ut ut dolor id eget.
-                Habitant imperdiet eget mi.
+                As it pertains to history, there are three types of people.
+                Those that write about it, those that read about it, and those
+                that make it. Make history. Mint your NFT today and be a part of
+                the historical culture of Migente.
               </div>
             </div>
           </div>
@@ -53,18 +50,18 @@ function MintSection() {
               <div className="right-vertical-bar"></div>
 
               <div className="img-wrapper">
-                <img src="/image/mint/image.png" alt="" />
+                <img src="/image/mint/Christina_Aguilera.png" alt="" />
               </div>
               <div className="img-wrapper">
-                <img src="/image/mint/image.png" alt="" />
+                <img src="/image/mint/Aztec_IV.png" alt="" />
               </div>
             </div>
             <div className="row-2">
               <div className="img-wrapper">
-                <img src="/image/mint/image.png" alt="" />
+                <img src="/image/mint/Jaguar_Mask.png" alt="" />
               </div>
               <div className="img-wrapper">
-                <img src="/image/mint/image.png" alt="" />
+                <img src="/image/mint/Big_Pun.png" alt="" />
               </div>
             </div>
           </div>

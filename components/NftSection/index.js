@@ -7,10 +7,10 @@ function NftSection() {
         <div className="gird-container">
           <div className="first-item">
             <div className="img-wrapper">
-              <img src="/image/Team_image/team-avatar.png" alt="" />
+              <img src="/image/Team_image/Cardi_B.png" alt="" />
             </div>
             <div className="img-wrapper">
-              <img src="/image/Team_image/team-avatar.png" alt="" />
+              <img src="/image/Team_image/Bad_Bunny.png" alt="" />
             </div>
             <div className="img-wrapper">
               <img src="/image/Team_image/team-avatar.png" alt="" />
@@ -36,7 +36,7 @@ function NftSection() {
             <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
-                Lorem ipsum dolor sit amet consectetur. Feugiat praesent tristique tellus diam nisi tortor ipsum sodales. Semper integer nisl facilisis velit mauris. Sollicitudin ut ut dolor id eget. Habitant imperdiet eget mi.
+                The Somos Collection
 
               </div>
             </div>

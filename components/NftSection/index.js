@@ -45,7 +45,7 @@ function NftSection() {
                 fusion of indigenous and European influences, resulting in a
                 rich and diverse cultural heritage. The use of bold colors and
                 intricate patterns is a common theme throughout the Mi Gente NFT
-                project reflecting the country's vibrant culture and history. It
+                project reflecting the vibrant culture and history. It
                 is a powerful reminder of the importance of cultural diversity
                 and artistic expression.
               </div>

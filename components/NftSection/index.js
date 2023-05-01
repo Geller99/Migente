@@ -13,22 +13,20 @@ function NftSection() {
               <img src="/image/Team_image/Bad_Bunny.png" alt="" />
             </div>
             <div className="img-wrapper">
-              <img src="/image/Team_image/team-avatar.png" alt="" />
+              <img src="/image/Team_image/Big_Pun.png" alt="" />
             </div>
             <div className="img-wrapper">
-              <img src="/image/Team_image/team-avatar.png" alt="" />
+              <img src="/image/Team_image/Christina_Aguilera.png" alt="" />
             </div>
             <div className="img-wrapper">
-              <img src="/image/Team_image/team-avatar.png" alt="" />
+              <img src="/image/Team_image/Bad_Bunny.png" alt="" />
             </div>
-            <div className="img-wrapper">
-              <img src="/image/Team_image/team-avatar.png" alt="" />
-            </div>
+           
           </div>
           <div className="second-item">
             <div className="heading-wrapper">
               <div className="title">
-                The <span>NFTS</span>
+                <span>The NFTS</span>
           
               </div>
 
@@ -39,7 +37,7 @@ function NftSection() {
             <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
-                We are embracing traditional Mexican art as it is known for its
+                We are embracing traditional Latin American art as it is known for its
                 vibrant colors, intricate designs, and strong cultural
                 symbolism. This art style has been characterized by a unique
                 fusion of indigenous and European influences, resulting in a

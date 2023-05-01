@@ -11,7 +11,7 @@ function ProjectSection() {
           <div className="left-text-div">
             <div className="heading-wrapper">
               <div className="title">
-                 <span>Project</span>
+                 <span>The Project</span>
                 {/* <div className="vertical-line"></div>
                 <div className="horizontal-line"></div> */}
               </div>

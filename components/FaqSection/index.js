@@ -166,6 +166,15 @@ function FaqSection() {
                     Only 1,500 will be released for the pre-sale.
                   </div>
                 </div>
+                <div className="faq-card">
+                  <div className="title">
+                    What are the Perks of the Presale?
+                  </div>
+                  <div className="desc">
+                  $25,000 giveaway (Five $5,000 USDT rewards), 25 NFT give aways, 10 Mac books, 1 Jeep Grand Cherokee
+                  Pre-Sale NFT purchasers can also earn commission on mint referrals
+                  </div>
+                </div>
               </div>
             </Slider>
           </div>

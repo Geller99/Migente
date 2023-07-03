@@ -30,13 +30,14 @@ function ProjectSection() {
                 but also by a strong aspiration to equip the upcoming cohort of
                 change-makers with the necessary resources and expertise to
                 establish a legacy of wealth across generations.
+                While emphasizing the Latino culture, Mi Gente embodies the
+                tenacity and determination of all individuals.
               </div>
             </div>
             <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
-                While emphasizing the Latino culture, Mi Gente embodies the
-                tenacity and determination of all individuals.
+                Utility: VIP wealth building community that gives you access to Top Entrepreneurs, and opportunities on a monthly basis. NFT users who register for the monthly VIP classes will receive a monthly reflection of up to 10%. You will earn and learn as long as you hold onto the NFT. 
               </div>
             </div>
 

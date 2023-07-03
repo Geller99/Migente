@@ -19,12 +19,10 @@ function ProjectSection() {
             <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
-                The genesis of the Mi Gente Project was not only fueled by a
-                deep appreciation for the Hispanic and Latin American culture
-                and its abundant legacy,
+              The Mi Gente Project was born from a profound respect for Hispanic and Latin American culture, aiming to empower future change-makers with resources and knowledge to build a lasting legacy of wealth. While focusing on Latino culture, Mi Gente represents the resilience and determination of all individuals.
               </div>
             </div>
-            <div className="para-wrapper">
+            {/* <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
                 but also by a strong aspiration to equip the upcoming cohort of
@@ -33,11 +31,11 @@ function ProjectSection() {
                 While emphasizing the Latino culture, Mi Gente embodies the
                 tenacity and determination of all individuals.
               </div>
-            </div>
+            </div> */}
             <div className="para-wrapper">
               <div className="vertical-line"></div>
               <div className="content">
-                Utility: VIP wealth building community that gives you access to Top Entrepreneurs, and opportunities on a monthly basis. NFT users who register for the monthly VIP classes will receive a monthly reflection of up to 10%. You will earn and learn as long as you hold onto the NFT. 
+                Utility - VIP wealth building community that gives you access to Top Entrepreneurs, and opportunities on a monthly basis. NFT users who register for the monthly VIP classes will receive a monthly reflection of up to 10%. You will earn and learn as long as you hold onto the NFT. 
               </div>
             </div>
 

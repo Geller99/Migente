@@ -7,6 +7,7 @@ import NftSection from '@/components/NftSection'
 import ProjectSection from '@/components/ProjectSection'
 import TeamSection from '@/components/TeamSection'
 import UtilityEarningSection from '@/components/UtilityEarningSection'
+import TheMintSection from '@/components/TheMintSection'
 import Head from 'next/head'
 import Image from 'next/image'
 

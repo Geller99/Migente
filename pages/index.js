@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar'
 import NftSection from '@/components/NftSection'
 import ProjectSection from '@/components/ProjectSection'
 import TeamSection from '@/components/TeamSection'
+import UtilityEarningSection from '@/components/UtilityEarningSection'
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -28,6 +29,7 @@ export default function Home() {
         {/* Section starts */}
         <HeroSection />
         <ProjectSection />
+        <UtilityEarningSection />
         {/* <TeamSection /> */}
         <NftSection />
         <MintSection />

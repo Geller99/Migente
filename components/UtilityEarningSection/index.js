@@ -1,8 +1,8 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 
 const UtilityEarningSection = () => {
-
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [currentIndex, setCurrentIndex] = useState(0);
   const totalCards = 6;
 
@@ -13,7 +13,25 @@ const UtilityEarningSection = () => {
   const goToPreviousCard = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? totalCards - 1 : prevIndex - 1));
   };
-  
+
+  const images = [
+    "/image/laptop2.png",
+    "/image/car.PNG",
+    "/image/laptop.svg",
+  ]
+
+  const interval = 4000;
+
+  useEffect(() => {
+    const sliderInterval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, interval);
+
+    return () => clearInterval(sliderInterval);
+  }, [interval]);
+
+
+
   return (
     <div className='utility-earning-section'>
 
@@ -66,10 +84,10 @@ const UtilityEarningSection = () => {
             </div>
           </div>
 
-          <div className='centered-img'>
-          <img src="/image/Team_image/Cardi_B.png" alt="" />
-          </div>
 
+          <div className='centered-img'>
+            <img src={images[currentImageIndex]} interval={interval} alt="Earning" />
+          </div>
           <div className='left-points right-points'>
             <div className={`card ${currentIndex === 3 ? 'active' : ''}`}>
                 <div className='elipse-container'>

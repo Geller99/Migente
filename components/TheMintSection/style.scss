@@ -1,0 +1,123 @@
+.the-mint-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  background-color: #f3bd72;
+  z-index: 20;
+  padding: 84px 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  // border-left: 2px solid rgba(41, 45, 50, 0.2);
+
+  .section-title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 3.7vw;
+
+    h1 {
+      font-family: "JI Chimichanga";
+      font-style: normal;
+      font-weight: 400;
+      font-size: clamp(54px, 6.6vw, 96px);
+      line-height: 89px;
+      letter-spacing: -0.02em;
+      text-transform: capitalize;
+      color: #292d32;
+      min-width: fit-content;
+      @media screen and (max-width: 786px) {
+        font-size: 54px;
+      }
+    }
+
+    .border-left {
+      width: 80%;
+      height: 2px;
+      background: rgba(41, 45, 50, 0.2);
+      margin-left: 42px;
+
+      @media screen and (max-width: 786px) {
+        width: 50%;
+        margin-left: 1rem;
+      }
+    }
+
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    position: relative;
+    column-gap: 8rem;
+    margin: auto 0;
+
+    @media screen and (max-width: 786px) {
+        flex-direction: column;
+        padding: 0 2rem;
+        row-gap: 4rem;
+        margin-top: 4rem;
+    }
+
+    .mint-info {
+      display: flex;
+      flex-direction: column;
+      row-gap: 4rem;
+
+      main {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4rem;
+        width: 100%;
+        max-width: 500px;
+        padding: 3rem;
+        border: 2px solid #292d32;
+        height: 100%;
+
+
+        div {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 36px;
+          }
+
+          p {
+            font-style: normal;
+            font-weight: 500;
+            font-family: "Neue Haas Grotesk Display Pro";
+            font-style: normal;
+            font-weight: 600;
+            font-size: clamp(18px, 1.6vw, 24px);
+            line-height: 150%;
+            color: #181819;
+            margin-left: 2rem;
+          }
+        }
+      }
+
+      footer {
+        h4 {
+          font-family: "Neue Haas Grotesk Display Pro";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 24px;
+          line-height: 150%;
+          color: #292d32;
+        }
+        p {
+          margin-top: 1rem;
+          font-family: "Neue Haas Grotesk Display Pro";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 24px;
+          line-height: 150%;
+          color: #292d32c5;
+        }
+      }
+    }
+  }
+}

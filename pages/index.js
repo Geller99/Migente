@@ -31,6 +31,7 @@ export default function Home() {
         <HeroSection />
         <ProjectSection />
         <UtilityEarningSection />
+        <TheMintSection />
         {/* <TeamSection /> */}
         <NftSection />
         <MintSection />

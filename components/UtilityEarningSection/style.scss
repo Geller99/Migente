@@ -6,7 +6,7 @@
     padding: 84px 0;
 
     @media (max-width: 786px) {
-        padding: 56px 0px 84px 0;
+        padding: 56px 0px 106px 0;
         row-gap: 0rem;
     }
     .heading {
@@ -43,7 +43,10 @@
                 width: calc(50% - 170px);
             }
             @media (max-width: 478px) {
-                width: calc(50% - 130px);
+                width: calc(50% - 170px);
+            }
+            @media (max-width: 378px) {
+                width: calc(50% - 150px);
             }
         }
         .seperator-left {
@@ -63,10 +66,15 @@
                 font-family: 'JI Chimichanga';
                 font-style: normal;
                 font-weight: 400;
-                font-size: clamp(32px,6.6vw,96px);
+                font-size: clamp(42px,6.6vw,96px);
                 line-height: 89px;
                 letter-spacing: -0.02em;
                 text-transform: capitalize;
+                padding: 0 2rem;
+
+                @media (max-width: 388px) {
+                    font-size: 36px;
+                }
             }
 
 
@@ -81,7 +89,7 @@
                 text-align: center;
                 color: #FFFFFF;
                 margin-top: 32px;
-                padding: 0 1rem;
+                padding: 0 2rem;
 
                 @media (max-width: 1440px) {
                     margin-top: 16px;
@@ -175,11 +183,12 @@
                     font-weight: 500;
                     font-size: 24px;
                     line-height: 150%;
+
                     @media (max-width: 1840px) {
                         font-family: 'Neue Haas Grotesk Display Pro';
                         font-style: normal;
                         font-weight: 500;
-                        font-size: 20px;
+                        font-size: 18px;
                         line-height: 150%;
                     }
 
@@ -188,11 +197,6 @@
                         font-style: normal;
                         font-weight: 500;
                         font-size: 16px;
-                        line-height: 150%;
-                    }
-                    @media (max-width:$mobile) {
-                        font-weight: 500;
-                        font-size: 14px;
                         line-height: 150%;
                     }
                 }
@@ -249,8 +253,8 @@
                 height: 3px;
                 width: calc(90% - 2rem);
                 position: absolute;
-                bottom: 00px;
-                transform: translateY(10px);
+                bottom: -30px;
+                transform: translateY(00px);
 
                 .slider {
                     width: 28px;
@@ -275,6 +279,7 @@
                 width: 100%;
                 margin-top: 50px;
                 padding: 0 2rem;
+                min-height: 300px;
             }
 
             img {

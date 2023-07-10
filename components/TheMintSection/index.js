@@ -5,7 +5,7 @@ const TheMintSection = () => {
     <div className='the-mint-section'>
         
         <div className='section-title'>
-            <h1>The Mint</h1>
+            <h1>Mint Info</h1>
             <div className='border-left'></div>
         </div>
 

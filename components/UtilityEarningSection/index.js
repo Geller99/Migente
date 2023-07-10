@@ -15,9 +15,9 @@ const UtilityEarningSection = () => {
   };
 
   const images = [
-    "/image/laptop2.png",
-    "/image/car.PNG",
-    "/image/laptop.svg",
+    "/image/utilities/laptop2.svg",
+    "/image/utilities/car.svg",
+    "/image/utilities/laptop.svg",
   ]
 
   const interval = 4000;

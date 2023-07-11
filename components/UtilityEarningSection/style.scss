@@ -4,7 +4,7 @@
     row-gap: 3rem;
     min-height: 100vh;
     padding: 84px 0;
-
+    background: #000;
     @media (max-width: 786px) {
         padding: 56px 0px 106px 0;
         row-gap: 0rem;
@@ -71,7 +71,7 @@
                 letter-spacing: -0.02em;
                 text-transform: capitalize;
                 padding: 0 2rem;
-
+                color: #FFF;
                 @media (max-width: 388px) {
                     font-size: 36px;
                 }
@@ -183,6 +183,7 @@
                     font-weight: 500;
                     font-size: 24px;
                     line-height: 150%;
+                    color: #FFFFFF;
 
                     @media (max-width: 1840px) {
                         font-family: 'Neue Haas Grotesk Display Pro';
@@ -199,6 +200,7 @@
                         font-size: 16px;
                         line-height: 150%;
                     }
+
                 }
             }
             .card.active {

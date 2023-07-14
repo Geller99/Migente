@@ -16,11 +16,11 @@ const TheMintSection = () => {
                 <main>
                     <div>
                         <img src="/svg/decorative-flower-dark.svg" alt="" />
-                        <p>2000 Tokens</p>
+                        <p>2,000 Tokens</p>
                     </div>
                     <div>
                         <img src="/svg/decorative-flower-lite.svg" alt="" />
-                        <p>Only 2000 NFTs are served for the pre-sale</p>
+                        <p>Only 2,000 NFTs are served for the pre-sale</p>
                     </div>
                     <div>
                         <img src="/svg/decorative-flower-dark.svg" alt="" />
@@ -29,7 +29,7 @@ const TheMintSection = () => {
                 </main>
 
                 <footer>
-                    <h4>PRE-SALE ALLOW LIST</h4>
+                    <h4>PRE-SALE </h4>
                     <p>July 28th </p>
                 </footer>
             </div>

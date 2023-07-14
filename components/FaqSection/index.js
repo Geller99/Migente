@@ -163,7 +163,7 @@ function FaqSection() {
                     How many NFTs will be made available for the pre-sale?
                   </div>
                   <div className="desc">
-                    Only 1,500 will be released for the pre-sale.
+                    Only 2,000 will be released for the pre-sale.
                   </div>
                 </div>
               

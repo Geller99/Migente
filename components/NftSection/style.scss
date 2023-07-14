@@ -1,5 +1,5 @@
 .nft-section {
-    height: 100vh;
+    // height: 100vh;
     // padding: 0px max(10vw, 20px);
     // background-image: url('../../public/image/nft/nft-bg.png');
 
@@ -10,9 +10,14 @@
     overflow-y: hidden;
     overflow-x: hidden;
 
+    @media (min-width:868px) {
+        height: 100vh;
+    }
+
     @media (max-width:768px) {
         padding-left: 10px;
-
+        max-height: 100%;
+        padding-bottom: 84px;
     }
 
     .nft-section-inner {
@@ -36,7 +41,7 @@
                 // justify-items: center;
                 // justify-content: center;
 
-                height: 100vh;
+                // height: 100vh;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
@@ -189,7 +194,7 @@
                                 font-weight: 400;
                                 font-size: 54px;
                                 line-height: 58px;
-                                margin-left: 14px;
+                                margin-left: 0px;
 
                             }
                         }

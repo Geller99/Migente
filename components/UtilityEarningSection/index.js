@@ -40,8 +40,8 @@ const UtilityEarningSection = () => {
           <div className='seperator-left'></div>
           <div className='main-text'>
               <h1>UTILITY & EARNING</h1>
-              <p>Every NFT holder gains instant access to The Seven22 Private Wealth Club.
-                <br/>Membership includes:
+              <p> Mint Rewards
+                <br/> 
               </p>
           </div>
           <div className="seperator-right"></div>
@@ -64,7 +64,7 @@ const UtilityEarningSection = () => {
                   <div></div>
                 </div>
 
-                <p>1. The One Percent Access Card exclusive member rates on travel & VIP pricing at restaurants and retailers globally..</p>
+                <p>1. Mint Rewards will feature 5 winners of $5,000 USDT </p>
             </div>
 
             <div className={`card ${currentIndex === 1 ? 'active' : ''}`}>
@@ -72,7 +72,7 @@ const UtilityEarningSection = () => {
                   <div></div>
                 </div>
 
-                <p>2. The One Percent Access Card exclusive member rates on travel & VIP pricing at restaurants and retailers globally.</p>
+                <p>2. A number of free NFTs will be awarded to the highest referrers  </p>
             </div>
 
             <div className={`card ${currentIndex === 2 ? 'active' : ''}`}>
@@ -80,7 +80,7 @@ const UtilityEarningSection = () => {
                   <div></div>
                 </div>
 
-                <p>3. The One Percent Access Card exclusive member rates on travel & VIP pricing at restaurants and retailers globally.</p>
+                <p>3. Presale Purchasers are eligible to winning 10 Mac books and 1 Jeep Cherokee </p>
             </div>
           </div>
 
@@ -94,7 +94,7 @@ const UtilityEarningSection = () => {
                   <div></div>
                 </div>
 
-                <p>4. The One Percent Access Card exclusive member rates on travel & VIP pricing at restaurants and retailers globally.</p>
+                <p>4. The Presale will feature 2,000 NFTs, each presale mint makes the wallet holder eligible to increasing referral rewards </p>
             </div>
 
             <div className={`card ${currentIndex === 4 ? 'active' : ''}`}>
@@ -102,16 +102,10 @@ const UtilityEarningSection = () => {
                   <div></div>
                 </div>
 
-                <p>5. The One Percent Access Card exclusive member rates on travel & VIP pricing at restaurants and retailers globally.</p>
+                <p>5. More referral bonuses will be handed out according to the leaderboards </p>
             </div>
 
-            <div className={`card ${currentIndex === 5 ? 'active' : ''}`}>
-                <div className='elipse-container'>
-                  <div></div>
-                </div>
-
-                <p>6. The One Percent Access Card exclusive member rates on travel & VIP pricing at restaurants and retailers globally.</p>
-            </div>
+          
           </div>
 
           <div className='nav-slider' >

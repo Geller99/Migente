@@ -16,21 +16,21 @@ const TheMintSection = () => {
                 <main>
                     <div>
                         <img src="/svg/decorative-flower-dark.svg" alt="" />
-                        <p>500 Spots</p>
+                        <p>2000 Tokens</p>
                     </div>
                     <div>
                         <img src="/svg/decorative-flower-lite.svg" alt="" />
-                        <p>Only 500 NFTs are served for the pre-sale</p>
+                        <p>Only 2000 NFTs are served for the pre-sale</p>
                     </div>
                     <div>
                         <img src="/svg/decorative-flower-dark.svg" alt="" />
-                        <p>Price: 0.3138ETH</p>
+                        <p>Price: $300</p>
                     </div>
                 </main>
 
                 <footer>
                     <h4>PRE-SALE ALLOW LIST</h4>
-                    <p>July 31 07:33pm EST</p>
+                    <p>July 28th </p>
                 </footer>
             </div>
 
@@ -38,17 +38,17 @@ const TheMintSection = () => {
                 <main>
                     <div>
                         <img src="/svg/decorative-flower-dark.svg" alt="" />
-                        <p>All the remaining assets not sold in pre-sale 6,522</p>
+                        <p>Remaining 8,000 NFTs - $375 each</p>
                     </div>
                     <div>
                         <img src="/svg/decorative-flower-lite.svg" alt="" />
-                        <p>Only 500 NFTs are served for the pre-sale</p>
+                        <p>Referral Bonuses for Presale Minters</p>
                     </div>
                 </main>
 
                 <footer>
                     <h4>PUBLIC MINT</h4>
-                    <p>July 31 07:33pm EST</p>
+                    <p> To launch 30 days after pre-sale </p>
                 </footer>
             </div>
         </div>

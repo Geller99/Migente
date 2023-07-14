@@ -39,8 +39,8 @@ const UtilityEarningSection = () => {
         <div className='heading'>
           <div className='seperator-left'></div>
           <div className='main-text'>
-              <h1>UTILITY & EARNING</h1>
-              <p> Mint Rewards
+              <h1>MINT PERKS</h1>
+              <p> 
                 <br/> 
               </p>
           </div>
@@ -64,7 +64,7 @@ const UtilityEarningSection = () => {
                   <div></div>
                 </div>
 
-                <p>1. Mint Rewards will feature 5 winners of $5,000 USDT </p>
+                <p> Mint Rewards will feature 5 winners of $5,000 USDT </p>
             </div>
 
             <div className={`card ${currentIndex === 1 ? 'active' : ''}`}>
@@ -72,7 +72,7 @@ const UtilityEarningSection = () => {
                   <div></div>
                 </div>
 
-                <p>2. A number of free NFTs will be awarded to the highest referrers  </p>
+                <p>A number of free NFTs will be awarded to the highest referrers  </p>
             </div>
 
             <div className={`card ${currentIndex === 2 ? 'active' : ''}`}>
@@ -80,7 +80,7 @@ const UtilityEarningSection = () => {
                   <div></div>
                 </div>
 
-                <p>3. Presale Purchasers are eligible to winning 10 Mac books and 1 Jeep Cherokee </p>
+                <p> Presale Purchasers are eligible to winning 10 Mac books and 1 Jeep Cherokee </p>
             </div>
           </div>
 
@@ -94,7 +94,7 @@ const UtilityEarningSection = () => {
                   <div></div>
                 </div>
 
-                <p>4. The Presale will feature 2,000 NFTs, each presale mint makes the wallet holder eligible to increasing referral rewards </p>
+                <p> The Presale will feature 2,000 NFTs, each presale mint makes the wallet holder eligible to increasing referral rewards </p>
             </div>
 
             <div className={`card ${currentIndex === 4 ? 'active' : ''}`}>
@@ -102,7 +102,7 @@ const UtilityEarningSection = () => {
                   <div></div>
                 </div>
 
-                <p>5. More referral bonuses will be handed out according to the leaderboards </p>
+                <p> More referral bonuses will be handed out according to the leaderboards </p>
             </div>
 
           

@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="homepage=conatiner">
       <Head>
-        <title>Bonaza</title>
+        <title>Migente</title>
         <meta name="description" content="Web3" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

@@ -4,7 +4,7 @@ import InputNumber from "./Components/InputNumber";
 import { useCountdown } from "@/hooks/useCount";
 
 function MintSection() {
-  const targetDate = new Date("July 28, 2023 00:00:00");
+  const targetDate = new Date("August 11, 2023 00:00:00");
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
   return (
     <div className="mint-section" id="mint">

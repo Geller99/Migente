@@ -5,7 +5,7 @@ import { useCountdown } from "@/hooks/useCount";
 
 function HeroSection() {
   
-  const targetDate = new Date("July 28, 2023 00:00:00");
+  const targetDate = new Date("August 11, 2023 00:00:00");
 
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
   return (
@@ -22,7 +22,7 @@ function HeroSection() {
         <div className="sub-heading">
           <div className="vertical-bar"></div>
           <div className="content">
-            The Genesis -  July 28th 
+            The Genesis -  August 11th 2023
             <br />
             <p>Presale {`${days} days : ${hours} hours : ${minutes} minutes : ${seconds} seconds`}</p>
           </div>

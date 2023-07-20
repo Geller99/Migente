@@ -73,8 +73,8 @@ function BottomNavbar() {
             <div className={`${isActive === 2 ? 'border-right-line border-line-active ' : 'border-right-line '}`}></div>
 
           </a>
-          <a href="#team" className={`${isActive === 3 ? 'active menu-items ' : 'menu-items '}`} onClick={() => setIsActive(3)}  >
-            The Team
+          <a href="#perks" className={`${isActive === 3 ? 'active menu-items ' : 'menu-items '}`} onClick={() => setIsActive(3)}  >
+            Mint Perks
             <div className={`${isActive === 3 ? 'border-right-line border-line-active ' : 'border-right-line '}`}></div>
 
 

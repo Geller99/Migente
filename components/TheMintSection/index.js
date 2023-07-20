@@ -30,7 +30,7 @@ const TheMintSection = () => {
 
                 <footer>
                     <h4>PRE-SALE </h4>
-                    <p>July 28th </p>
+                    <p> August 11th </p>
                 </footer>
             </div>
 
@@ -48,7 +48,7 @@ const TheMintSection = () => {
 
                 <footer>
                     <h4>PUBLIC MINT</h4>
-                    <p> To launch 30 days after pre-sale </p>
+                    <p> September 11th </p>
                 </footer>
             </div>
         </div>

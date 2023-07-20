@@ -20,7 +20,7 @@ const UtilityEarningSection = () => {
     "/image/utilities/ETH 1.svg",
   ]
 
-  const interval = 4000;
+  const interval = 2000;
 
   useEffect(() => {
     const sliderInterval = setInterval(() => {

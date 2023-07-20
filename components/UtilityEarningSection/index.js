@@ -17,7 +17,7 @@ const UtilityEarningSection = () => {
   const images = [
     "/image/utilities/laptop2.svg",
     "/image/utilities/car.svg",
-    "/image/utilities/laptop.svg",
+    "/image/utilities/ETH 1.svg",
   ]
 
   const interval = 4000;
@@ -33,16 +33,16 @@ const UtilityEarningSection = () => {
 
 
   return (
-    <div className='utility-earning-section'>
+    <div className='utility-earning-section' id='perks'>
 
 
       <div className='heading'>
         <div className='seperator-left'></div>
         <div className='main-text'>
           <h1>MINT PERKS</h1>
-          <p>
+          {/* <p>
             <br />
-          </p>
+          </p> */}
         </div>
         <div className="seperator-right"></div>
       </div>
@@ -72,7 +72,7 @@ const UtilityEarningSection = () => {
               <div></div>
             </div>
 
-            <p>A number of free NFTs will be awarded to the highest referrers  </p>
+            <p> Everyone participating in the pre-sale will receive an exclusive opportunity to earn a percentage of every NFT sold during the public sale using their unique referral link. Links will only be available for pre-sale participants.  </p>
           </div>
 
           <div className={`card ${currentIndex === 2 ? 'active' : ''}`}>
@@ -102,10 +102,11 @@ const UtilityEarningSection = () => {
               <div></div>
             </div>
 
-            <p> Everyone participating in the pre-sale will receive an exclusive opportunity to earn a percentage of every NFT sold during the public sale using their unique referral link. Links will only be available for pre-sale participants.  </p>
+           
+            <p>A number of free NFTs will be awarded to the highest referrers  </p>
           </div>
 
-          <div className={`card ${currentIndex === 4 ? 'active' : ''}`}>
+          <div className={`card ${currentIndex === 5 ? 'active' : ''}`}>
             <div className='elipse-container'>
               <div></div>
             </div>

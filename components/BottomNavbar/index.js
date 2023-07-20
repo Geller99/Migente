@@ -19,12 +19,12 @@ function BottomNavbar() {
           <div className={`${isActive === 2 ? 'border-right-line border-line-active ' : 'border-right-line '}`}></div>
 
         </a>
-        {/* <a href="#team" className={`${isActive === 3 ? 'active menu-items ' : 'menu-items '}`} onClick={() => setIsActive(3)}  >
-          The Team
+        <a href="#perks" className={`${isActive === 3 ? 'active menu-items ' : 'menu-items '}`} onClick={() => setIsActive(3)}  >
+          Mint Perks
           <div className={`${isActive === 3 ? 'border-right-line border-line-active ' : 'border-right-line '}`}></div>
 
 
-        </a> */}
+        </a>
         <a href="#nfts" className={`${isActive === 4 ? 'active menu-items ' : 'menu-items '}`} onClick={() => setIsActive(4)}  >
           NFTs
           <div className={`${isActive === 4 ? 'border-right-line border-line-active ' : 'border-right-line '}`}></div>

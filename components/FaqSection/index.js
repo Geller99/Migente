@@ -172,7 +172,7 @@ function FaqSection() {
           </div>
           <div className="last-item-image-container">
             <img src="/svg/decorative-flower-dark.svg" alt="" />
-            <img src="/svg/decorative-flower-light.svg" alt="" />
+            <img src="/svg/decorative-flower-lite.svg" alt="" />
             <img src="/svg/decorative-flower-dark.svg" alt="" />
             <img src="/svg/decorative-flower-lite.svg" alt="" />
             <img src="/svg/decorative-flower-dark.svg" alt="" />

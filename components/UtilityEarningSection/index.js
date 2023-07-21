@@ -86,7 +86,7 @@ const UtilityEarningSection = () => {
 
 
         <div className='centered-img'>
-          <img src={images[currentImageIndex]} interval={interval} alt="Earning" />
+          <img src={images[currentImageIndex]} interval={interval} alt="Mining Perks"  priority />
         </div>
         <div className='left-points right-points'>
           <div className={`card ${currentIndex === 3 ? 'active' : ''}`}>

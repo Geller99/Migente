@@ -22,7 +22,7 @@ function HeroSection() {
         <div className="sub-heading">
           <div className="vertical-bar"></div>
           <div className="content">
-            The Genesis -  August 11th 
+            The Genesis -  August 11th 2023
             <br />
             <p>Presale {`${days} days : ${hours} hours : ${minutes} minutes : ${seconds} seconds`}</p>
           </div>

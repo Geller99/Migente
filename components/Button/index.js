@@ -9,11 +9,12 @@ function Button({
     value = "",
     variant = variants[0],
     href,
+    onClick
 }) {
     return (
         <a className={`custom-button ${variant}`} href={href} target="_blank" rel="noreferrer">
           
-            <div className={`main-button ${variant}`}>
+            <div className={`main-button ${variant}`} onClick={onClick}>
                 <div className='title'>{value}</div>
             </div>
         

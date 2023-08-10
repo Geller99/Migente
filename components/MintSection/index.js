@@ -1,12 +1,50 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../Button";
 import InputNumber from "./Components/InputNumber";
 import { useCountdown } from "@/hooks/useCount";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
+import { usePrepareContractWrite, useContractWrite } from 'wagmi'
+import { mainnet } from 'wagmi/chains'
 
 function MintSection() {
-
   const targetDate = new Date("August 11, 2023 00:00:00");
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
+
+  const [mintCounter, setMintCounter] = useState(1);
+  const incrementCounter = () => {
+    setMintCounter((prev) => prev + 1 );
+  }
+
+  const decrementCounter = () => {
+    setMintCounter((prev) => {
+      if (prev > 1) {
+        return prev - 1
+      } else {
+        alert('Lower limit reached!');
+        return 1
+      }
+    });
+  }
+ 
+
+////////////////////////////////////** Mint Config **//////////////////////////////////////////////
+
+const { config : presaleConfig , error: presaleErr } = usePrepareContractWrite({
+  address: '0xecb504d39723b0be0e3a9aa33d646642d1051ee1',
+  abi: '',
+  functionName: 'presale',
+  args: [mintCounter],
+  chainid: mainnet.id,
+  onSuccess(data) {
+    console.log('Success', data)
+  },
+  onError(error) {
+    console.log('Error', error)
+  },
+})
+const { write: presaleCall } = useContractWrite(presaleConfig);
+
+
   return (
     <div className="mint-section" id="mint">
       <div className="mint-section-inner">
@@ -31,16 +69,22 @@ function MintSection() {
             </span>
           </div>
 
+          <div>
+            <ConnectButton />
+          </div>
           <div className="mint-buttons-wrapper">
             <div className="number-incrementor">
-              <InputNumber mintQuantity={1} setMintQuantity={2} />
-              <div className="input-btn-line-1"></div>
-              <div className="input-btn-line-2"></div>
+              <InputNumber mintCounter={mintCounter} incrementCounter={incrementCounter} decrementCounter={decrementCounter} />
+              <div className="input-btn-line-1" ></div>
+              <div className="input-btn-line-2" ></div>
             </div>
 
             <div className="mint-now-btn">
-              <Button variant="bw" value="connect wallet" />
+              <Button variant="bw" value="Mint Presale" onClick={() => alert('Mint Not Live Yet')} />
             </div>
+            {/* <div className="mint-now-btn">
+              <Button variant="bw" value="Claim Rewards" />
+            </div> */}
           </div>
         </div>
         <div className="right-image-container">
